@@ -168,43 +168,9 @@ background-image: url('js-girl.png');
 
 © ۲۰۲۵ Reyrove. تمام حقوق محفوظ است.
 
-با ☕ و ترسی سالم از `undefined is not a function` ساخته شده است.
 
 ---
 
 > **به آزمایش ادامه بده، به دیباگ ادامه بده، و یادت باشه: `console.log()` بهترین دوست توست.**
 
 </div>
-
----
-
-## 🇬🇧 English Summary
-
-**JavaScript Notes in Persian (Farsi)** — a complete, beginner-friendly 24-session course written entirely in Persian.
-
-### What's inside
-
-- 24 structured sessions — from first `console.log()` to a full dashboard app
-- Variables, data types, operators, arrays, objects, functions, DOM, events, forms, `localStorage`, ES6+, debugging
-- Casual, zero-jargon tone — easy to read, easy to revisit
-- Dark feminine theme (pink + purple)
-
-### Quick start
-
-```bash
-git clone https://github.com/reyrove/javascript-notes-in-farsi.git
-cd javascript-notes-in-farsi
-# open index.html in your browser
-```
-
-🌐 **Live demo:** [reyrove.github.io/javascript-notes-in-farsi](https://reyrove.github.io/javascript-notes-in-farsi/)
-
-### Related
-
-🇮🇷 **This repo (Persian version)** &nbsp;·&nbsp; 🇬🇧 [English version](https://github.com/reyrove/javascript-notes-in-english)
-
-### License
-
-MIT — free to use, share, and learn from.
-
-Built with ☕ by [Reyrove](https://reyrove.github.io/).
