@@ -1,0 +1,210 @@
+# یادداشت‌های جاوااسکریپت به فارسی 📘
+
+### JavaScript Notes in Persian
+
+![Language](https://img.shields.io/badge/language-Persian%20%7C%20Farsi-e83f8e?style=flat-square)
+![Sessions](https://img.shields.io/badge/sessions-24-a56ef0?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-ff9e9e?style=flat-square)
+
+مجموعه‌ای کامل از یادداشت‌های جاوااسکریپت به زبان فارسی — از اولین `console.log()` تا ساخت یک داشبورد کامل.
+
+ساخته‌شده توسط **[Reyrove](https://reyrove.github.io/)** ☕💻
+
+🇬🇧 [English version →](https://github.com/reyrove/javascript-notes-in-english)
+
+---
+
+## 📖 درباره این مخزن
+
+این مخزن شامل **۲۴ جلسه ساختاریافته** است که جاوااسکریپت را از صفر مطلق تا ساخت اپلیکیشن‌های واقعی آموزش می‌دهد. هر جلسه به زبان ساده، خودمانی و بدون اصطلاحات پیچیده نوشته شده است.
+
+چه تازه‌کار باشی و چه بخواهی مبانی را مرور کنی، این یادداشت‌ها برای خواندن، تمرین کردن و مرور دوباره طراحی شده‌اند.
+
+---
+
+## 📚 فهرست مطالب
+
+| # | جلسه | موضوع |
+|---|------|-------|
+| ۱ | جلسه ۱ | ابزارهای توسعه‌دهنده جاوااسکریپت |
+| ۲ | جلسه ۲ | راه‌اندازی محیط توسعه |
+| ۳ | جلسه ۳ | نوشتن اولین کد جاوااسکریپت |
+| ۴ | جلسه ۴ | متغیرها و ثابت‌ها |
+| ۵ | جلسه ۵ | انواع داده‌ها |
+| ۶ | جلسه ۶ | عملگرها و عبارات |
+| ۷ | جلسه ۷ | تغییر نوع داده |
+| ۸ | جلسه ۸ | رشته‌ها |
+| ۹ | جلسه ۹ | اعداد و ریاضی |
+| ۱۰ | جلسه ۱۰ | آرایه‌ها |
+| ۱۱ | جلسه ۱۱ | آبجکت‌ها |
+| ۱۲ | جلسه ۱۲ | دستور if / else |
+| ۱۳ | جلسه ۱۳ | دستور switch |
+| ۱۴ | جلسه ۱۴ | حلقه‌ها |
+| ۱۵ | جلسه ۱۵ | توابع |
+| ۱۶ | جلسه ۱۶ | Scope و Hoisting |
+| ۱۷ | جلسه ۱۷ | DOM |
+| ۱۸ | جلسه ۱۸ | رویدادهای DOM |
+| ۱۹ | جلسه ۱۹ | فرم‌ها و اعتبارسنجی |
+| ۲۰ | جلسه ۲۰ | اپلیکیشن To-Do List |
+| ۲۱ | جلسه ۲۱ | JSON و localStorage |
+| ۲۲ | جلسه ۲۲ | قابلیت‌های ES6+ |
+| ۲۳ | جلسه ۲۳ | دیباگ کردن |
+| ۲۴ | جلسه ۲۴ | پروژه نهایی داشبورد |
+
+---
+
+## 🚀 چه چیزهایی یاد می‌گیری
+
+در پایان این یادداشت‌ها، با موارد زیر کاملاً راحت خواهی بود:
+
+- ✅ نوشتن و اجرای جاوااسکریپت در مرورگر
+- ✅ متغیرها، ثابت‌ها و همه انواع داده اصلی
+- ✅ عملگرها، تغییر نوع داده و کار با رشته‌ها و اعداد
+- ✅ آرایه‌ها و آبجکت‌ها (ذخیره و دستکاری داده)
+- ✅ شرط‌ها (`if/else`، `switch`) و حلقه‌ها
+- ✅ توابع — تعریف، فراخوانی و arrow function
+- ✅ Scope و Hoisting
+- ✅ دستکاری DOM و مدیریت رویدادها
+- ✅ اعتبارسنجی فرم
+- ✅ ساخت اپلیکیشن واقعی To-Do List
+- ✅ ذخیره دائمی داده با `localStorage` و JSON
+- ✅ سینتکس مدرن ES6+
+- ✅ دیباگ کردن حرفه‌ای
+
+---
+
+## 🛠️ نحوه استفاده از این یادداشت‌ها
+
+۱. این مخزن را **کلون یا دانلود** کن
+۲. فایل `index.html` را در مرورگر باز کن — تمام یادداشت‌ها آنجاست، مرتب‌شده بر اساس جلسه
+۳. از **منوی پرش** سمت چپ برای جابه‌جایی بین جلسات استفاده کن
+۴. **کنسول مرورگر** را باز کن (`F12`) تا مثال‌های کد را زنده امتحان کنی
+۵. تمرین کن — فقط نخوان. مثال‌ها را خودت تایپ کن
+
+---
+
+## 💻 اجرای محلی
+
+هیچ ابزار ساخت یا وابستگی‌ای لازم نیست. فقط فایل را باز کن:
+
+```bash
+# کلون کردن مخزن
+git clone https://github.com/reyrove/javascript-notes-in-farsi.git
+
+# باز کردن
+cd javascript-notes-in-farsi
+# سپس روی index.html دوبار کلیک کن، یا از افزونه Live Server استفاده کن
+```
+
+یا آنلاین در **GitHub Pages** ببین:
+👉 `https://reyrove.github.io/javascript-notes-in-farsi/`
+
+---
+
+## 📂 ساختار پروژه
+
+```
+javascript-notes-in-farsi/
+├── index.html       # همه ۲۴ جلسه در یک صفحه
+├── style.css        # تم تیره زنانه (صورتی + بنفش)
+├── js-girl.png      # تصویر هدر
+└── README.md        # همین فایل
+```
+
+---
+
+## 🎨 تم
+
+این یادداشت‌ها از یک **تم تیره زنانه** استفاده می‌کنند — پس‌زمینه ذغالی تیره با لهجه‌های صورتی، بنفش و هلویی. مناسب برای جلسات مطالعه طولانی.
+
+---
+
+## 🤝 مشارکت
+
+غلط املایی پیدا کردی؟ مثال بهتری داری؟ PR خوش‌آمد است!
+
+۱. مخزن را Fork کن
+۲. شاخه خودت را بساز (`git checkout -b fix/session-6-typo`)
+۳. تغییرات را Commit کن (`git commit -m "رفع غلط در جلسه ۶"`)
+۴. Push کن و یک Pull Request باز کن
+
+---
+
+## 📬 ارتباط با Reyrove
+
+- 🌐 **وب‌سایت:** [reyrove.github.io](https://reyrove.github.io/)
+- 💼 **لینکدین:** [اینجا وصل شو](https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/)
+- 🐙 **GitHub:** [@reyrove](https://github.com/reyrove)
+
+---
+
+## 📚 منابع پیشنهادی
+
+- [MDN Web Docs — JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Modern JavaScript Tutorial](https://javascript.info/)
+- [ECMAScript Specification](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
+---
+
+## ⚠️ یک نکته قبل از Push
+
+در `style.css` مطمئن شو مسیر تصویر هدر این‌طور است:
+
+```css
+background-image: url('js-girl.png');
+```
+
+**نه** `'js girl.png'`. فاصله در نام فایل روی GitHub Pages مشکل ایجاد می‌کند — فایل را به `js-girl.png` تغییر نام بده.
+
+همچنین در `index.html` خط اول را به این تغییر بده:
+
+```html
+<html lang="fa" dir="rtl">
+```
+
+---
+
+## 📄 مجوز
+
+© ۲۰۲۵ Reyrove. تمام حقوق محفوظ است.
+
+با ☕ و ترسی سالم از `undefined is not a function` ساخته شده است.
+
+---
+
+> **به آزمایش ادامه بده، به دیباگ ادامه بده، و یادت باشه: `console.log()` بهترین دوست توست.**
+
+</div>
+
+---
+
+## 🇬🇧 English Summary
+
+**JavaScript Notes in Persian (Farsi)** — a complete, beginner-friendly 24-session course written entirely in Persian.
+
+### What's inside
+
+- 24 structured sessions — from first `console.log()` to a full dashboard app
+- Variables, data types, operators, arrays, objects, functions, DOM, events, forms, `localStorage`, ES6+, debugging
+- Casual, zero-jargon tone — easy to read, easy to revisit
+- Dark feminine theme (pink + purple)
+
+### Quick start
+
+```bash
+git clone https://github.com/reyrove/javascript-notes-in-farsi.git
+cd javascript-notes-in-farsi
+# open index.html in your browser
+```
+
+🌐 **Live demo:** [reyrove.github.io/javascript-notes-in-farsi](https://reyrove.github.io/javascript-notes-in-farsi/)
+
+### Related
+
+🇮🇷 **This repo (Persian version)** &nbsp;·&nbsp; 🇬🇧 [English version](https://github.com/reyrove/javascript-notes-in-english)
+
+### License
+
+MIT — free to use, share, and learn from.
+
+Built with ☕ by [Reyrove](https://reyrove.github.io/).
